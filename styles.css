@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing:150px:
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    list-style: none;
+}
+
+.hero {
+    background: url('https://cdn.pixabay.com/video/2024/02/25/201947-916877801_tiny.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero button {
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color:black;
+}
+
+.service {
+    background-color:white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.service h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.service button {
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about, .contact, .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-details img {
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.about-details p {
+    width: 50%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.testimonials {
+    background-color:black;
+    padding: 40px 20px;
+    color:white;
+}
+
+.testimonial {
+    margin: 20px 0;
+}
+
+footer {
+    background-color:black;
+    color:white;
+   
+    }
+   
+
+
+
